@@ -1,5 +1,5 @@
 class Tree:
-    def __init__(self,name,age,num):
+    def __init__(self,name,age,num): #defining a constructor in python using def keyword
         self.name=name
         self.age=age
         self.numberOfLeaves=num
