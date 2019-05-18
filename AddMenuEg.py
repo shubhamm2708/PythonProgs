@@ -18,12 +18,12 @@ subMenu = Menu(menu , tearoff = 0) #adding options to the menu bar
 menu.add_cascade(label = 'File' , menu = subMenu) #adds a dropdwon feature to the label at the menu bar
 subMenu.add_command(label = 'Open') #options displayed on the dropdown menu when clicking the label
 subMenu.add_command(label = 'Edit')
-subMenu.add_command(label = 'Save' , command = Save)
+subMenu.add_command(label = 'Save' , command = Save) #refer the save function above
 subMenu.add_command(label = 'Save As')
 
 subMenu.add_separator() #adds a separating grey line between 2 options(maybe of different category of operations)
 
-subMenu.add_command(label = 'Close' , command = Close)
+subMenu.add_command(label = 'Close' , command = Close) #refer the close function above
 subMenu.add_command(label = 'Delete')
 
 subMenu2 = Menu(menu , tearoff = 0)
