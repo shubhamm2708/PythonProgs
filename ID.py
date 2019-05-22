@@ -3,7 +3,7 @@ import socket
 import getpass
 from urllib.request import urlopen
 username = getpass.getuser()
-print("\n username : ", username)
+print("\n username : ", username) #for username
 hostname = socket.gethostname()
 print("\n hostname : ", hostname)
 machineIP = socket.gethostbyname(hostname)
